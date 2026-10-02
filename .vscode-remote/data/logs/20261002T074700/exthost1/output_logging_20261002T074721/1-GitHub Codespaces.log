@@ -1,0 +1,368 @@
+[Client I] GitHub Codespaces version 1.18.16
+[Client I] isRunningInWeb: "true"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:1fd6 I] initializing
+[Client:extension:1fd6:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[DevContainerJsonSupport I] Initializing devcontainer.json support package
+[DevContainerJsonSupport V] [2026-10-02T07:47:32.481Z] Internal initialization of dev container support package...
+
+[Client I] Connecting to current codespace: automatic-space-fortnight-gxrvg4p4v9wj2q9g
+[Command:Connect I] Decorator starting: ErrorNotification
+[Command:Connect I] Decorator starting: Telemetry
+[Client I] Jupyter API registered? false
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/automatic-space-fortnight-gxrvg4p4v9wj2q9g"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:1fd6:resolver:resolve:1 I] resolve retry #3
+[Client:extension:1fd6:resolver:resolve:1 V] Telemetry details - check 1: number of reporters: #1
+[Client:extension:1fd6:resolver:resolve:1 I] resolving "codespaces+automatic-space-fortnight-gxrvg4p4v9wj2q9g"
+[Client:extension:1fd6:resolver:resolve:1 I] codespace: "automatic-space-fortnight-gxrvg4p4v9wj2q9g", fetching details
+[Client:extension:1fd6:resolver:resolve:1:fetch-codespace-info I] fetching codespace details for "automatic-space-fortnight-gxrvg4p4v9wj2q9g"
+[Client:extension:1fd6:resolver:resolve:1:fetch-codespace-info I] signed in, getting the details
+[Client:extension:1fd6:resolver:resolve:1:fetch-codespace-info I] fetching codespace "automatic-space-fortnight-gxrvg4p4v9wj2q9g" (retries left: 2)
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/automatic-space-fortnight-gxrvg4p4v9wj2q9g"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:1fd6:resolver I] successfully fetched codespace details> object #0: {
+  "id": 51689327,
+  "name": "<42:<redacted>>",
+  "environment_id": "6974a41f-3005-4ad0-bd0f-72a749c25a4a",
+  "owner": "<undefined:<redacted>>",
+  "billable_owner": {
+    "login": "randicjulian",
+    "id": 336841515,
+    "node_id": "U_kgDOFBPLKw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/336841515?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/randicjulian",
+    "html_url": "https://github.com/randicjulian",
+    "followers_url": "https://api.github.com/users/randicjulian/followers",
+    "following_url": "https://api.github.com/users/randicjulian/following{/other_user}",
+    "gists_url": "https://api.github.com/users/randicjulian/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/randicjulian/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/randicjulian/subscriptions",
+    "organizations_url": "https://api.github.com/users/randicjulian/orgs",
+    "repos_url": "https://api.github.com/users/randicjulian/repos",
+    "events_url": "https://api.github.com/users/randicjulian/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/randicjulian/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "repository": {
+    "id": 1401332067,
+    "node_id": "R_kgDOU4ahYw",
+    "name": "<6:<redacted>>",
+    "full_name": "randicjulian/randic",
+    "private": true,
+    "owner": "<undefined:<redacted>>",
+    "html_url": "https://github.com/randicjulian/randic",
+    "description": "project",
+    "fork": false,
+    "url": "https://api.github.com/repos/randicjulian/randic",
+    "forks_url": "https://api.github.com/repos/randicjulian/randic/forks",
+    "keys_url": "https://api.github.com/repos/randicjulian/randic/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/randicjulian/randic/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/randicjulian/randic/teams",
+    "hooks_url": "https://api.github.com/repos/randicjulian/randic/hooks",
+    "issue_events_url": "https://api.github.com/repos/randicjulian/randic/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/randicjulian/randic/events",
+    "assignees_url": "https://api.github.com/repos/randicjulian/randic/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/randicjulian/randic/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/randicjulian/randic/tags",
+    "blobs_url": "https://api.github.com/repos/randicjulian/randic/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/randicjulian/randic/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/randicjulian/randic/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/randicjulian/randic/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/randicjulian/randic/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/randicjulian/randic/languages",
+    "stargazers_url": "https://api.github.com/repos/randicjulian/randic/stargazers",
+    "contributors_url": "https://api.github.com/repos/randicjulian/randic/contributors",
+    "subscribers_url": "https://api.github.com/repos/randicjulian/randic/subscribers",
+    "subscription_url": "https://api.github.com/repos/randicjulian/randic/subscription",
+    "commits_url": "https://api.github.com/repos/randicjulian/randic/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/randicjulian/randic/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/randicjulian/randic/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/randicjulian/randic/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/randicjulian/randic/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/randicjulian/randic/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/randicjulian/randic/merges",
+    "archive_url": "https://api.github.com/repos/randicjulian/randic/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/randicjulian/randic/downloads",
+    "issues_url": "https://api.github.com/repos/randicjulian/randic/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/randicjulian/randic/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/randicjulian/randic/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/randicjulian/randic/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/randicjulian/randic/labels{/name}",
+    "releases_url": "https://api.github.com/repos/randicjulian/randic/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/randicjulian/randic/deployments"
+  },
+  "machine": {
+    "name": "<14:<redacted>>",
+    "display_name": "2 cores, 8 GB RAM, 32 GB storage",
+    "operating_system": "linux",
+    "storage_in_bytes": 34359738368,
+    "memory_in_bytes": 8589934592,
+    "cpus": 2,
+    "prebuild_availability": null
+  },
+  "prebuild": null,
+  "created_at": "2026-10-02T14:46:29+07:00",
+  "updated_at": "2026-10-02T14:47:36+07:00",
+  "last_used_at": "2026-10-02T14:46:29+07:00",
+  "state": "Available",
+  "url": "https://api.github.com/user/codespaces/automatic-space-fortnight-gxrvg4p4v9wj2q9g",
+  "git_status": {
+    "ahead": 0,
+    "behind": 0,
+    "has_unpushed_changes": true,
+    "has_uncommitted_changes": true,
+    "ref": "main"
+  },
+  "location": "SouthEastAsia",
+  "idle_timeout_minutes": 30,
+  "web_url": "https://automatic-space-fortnight-gxrvg4p4v9wj2q9g.github.dev",
+  "machines_url": "https://api.github.com/user/codespaces/automatic-space-fortnight-gxrvg4p4v9wj2q9g/machines",
+  "start_url": "https://api.github.com/user/codespaces/automatic-space-fortnight-gxrvg4p4v9wj2q9g/start",
+  "stop_url": "https://api.github.com/user/codespaces/automatic-space-fortnight-gxrvg4p4v9wj2q9g/stop",
+  "pulls_url": null,
+  "recent_folders": [],
+  "runtime_constraints": {
+    "allowed_port_privacy_settings": [
+      "private",
+      "public"
+    ]
+  },
+  "connection": {
+    "sessionPath": "/workspaces/randic",
+    "tunnelProperties": {
+      "tunnelId": "swift-dog-2mg5jr9",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<422:<redacted>>",
+      "managePortsAccessToken": "<429:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "container_id": "4f774d3c9c87270e3caca1954c0fe3ece5a9111a69c2cff4e0eabbcc77b8d22c",
+  "display_name": "automatic space fortnight",
+  "devcontainer_path": null,
+  "pending_operation": false,
+  "feature_flags": {
+    "developer": false,
+    "detailedActivityMonitor": false,
+    "vscodeAccountSwitching": true,
+    "enableSmbDiagnosticContinuousMonitoring": false,
+    "enableSmbDiagnosticOnAnomalyMonitoring": false,
+    "useEarlyWorkbenchWebClient": true,
+    "useCoiWebClient": false,
+    "remapUserNamespace": false,
+    "removeConnectRetriesWebClient": true,
+    "storageV2ExhaustiveValidation": false,
+    "forcePushShutdownTelemetry": true,
+    "useNewJupyterApi": true,
+    "improvedWarmupContainerReuse": true,
+    "storageV2ComprehensiveDiagnosticsCollection": false,
+    "usingCopilotWorkspaceConfig": false,
+    "copilotWorkspace": false,
+    "hostnameSpecificGitCredentialHelper": true,
+    "storageV2ForcedFlushes": false,
+    "storageV2AdvancedFsLogs": false,
+    "storageV2DisableIoUring": false,
+    "storageV2DisableCifsPrefetch": true,
+    "environmentChangesMonitorStopsWatcher": true,
+    "storageV2AggressivePrefetch": false,
+    "storageV2ExtremePrefetch": false,
+    "workspaceTrust": true,
+    "disableAutomaticTasks": true,
+    "tunnelProxySupport": true,
+    "Basis": true,
+    "Skuheapscaling": true,
+    "CacheIde": true,
+    "Developer": false,
+    "Eap": false
+  },
+  "retention_period_minutes": 43200,
+  "retention_expires_at": null,
+  "template": null,
+  "publish_url": null
+}
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:1fd6:resolver:resolve:1:check-codespace-state I] codespace automatic-space-fortnight-gxrvg4p4v9wj2q9g (id: 6974a41f-3005-4ad0-bd0f-72a749c25a4a) is in the "Default" state
+[Client:extension:1fd6:resolver:resolve:1:check-codespace-state I] noop
+[Client:extension:1fd6:resolver I] Initializing RPC client
+[Client:extension:1fd6:resolver I] Running in web, using unix socket for communication
+[Client:extension:1fd6:resolver I] Initializing Node-based codespace host service client
+[Client:extension:1fd6:resolver I] Initializing Node-based VS Code server host service client
+[Client:extension:1fd6:resolver I] Initializing Node-based Jupyter server host service client
+[Client:extension:1fd6:resolver:resolve:1:check-codespace-state I] vscode connection options: > object #0: {
+  "environmentId": "6974a41f-3005-4ad0-bd0f-72a749c25a4a",
+  "vsCodeCommit": "07f806f999227108933c2e30515b26eecc1fda74",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github",
+    "Github.copilot"
+  ],
+  "telemetry": true
+}
+[RemoteExplorer I] Updating codespace details
+[Client:extension:1fd6:resolver I] Executed start-remote-server using gRPC
+[Client:extension:1fd6:resolver:resolve:1 I] vscode server remote port: "44607", local port: "undefined"}
+[Client V] connect duration: 5624 ms
+[Client:extension:1fd6:resolver:resolve:1 I] Progress: Done
+[Client:extension:1fd6:resolver I] Subscribed to event stream
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] launching background configuration tasks
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Running in web, starting post attach command listener without disposable
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: addEnvironmentConfiguredEventCallback()
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] no max idle timeout notice
+[Client:extension:1fd6:resolver:resolve:1:background-tasks V] checking correctness of the codespace session path> object #0: [
+  {
+    "uri": {
+      "$mid": 1,
+      "fsPath": "/workspaces/randic",
+      "external": "file:///workspaces/randic",
+      "path": "/workspaces/randic",
+      "scheme": "file"
+    },
+    "name": "<6:<redacted>>",
+    "index": 0
+  }
+]
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Running in web, starting dev container change event listener without disposable
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Running in web, starting secrets updated event listener without disposable
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Running in web, starting codespace stopping event listener without disposable
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] starting activity monitor, isRunningInWeb: "true"
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] isRunningInWeb: true
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] starting activity monitor
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Running in web, starting user notification event listener without disposable
+[Client:extension:1fd6:resolver:resolve:1 V] Telemetry details - check 2: number of reporters: #1
+[Command:Connect I] Command [Connect to Codespace]: Connect to Codespace Success (7575ms)
+[Command:Connect I] Decorator finishing: Telemetry. Duration: 7ms (1 + 6)
+[Command:Connect I] Decorator finishing: ErrorNotification. Duration: 2ms (1 + 1)
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Executed is-recovery-container using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks V] not in recovery container
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Executed configure-environment using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks I] Executed get-container-persisted-folder using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[Client:extension:1fd6:resolver:resolve:1:background-tasks V] shared folder path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:1fd6:resolver:resolve:1:background-tasks V] shared file path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Performance I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[ResourceUsage V] shared folder path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage V] shared file path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage I] Starting monitor
+[ResourceUsage I] Checking if the codespace connection exists
+[ResourceUsage I] Running in web, starting monitor without disposable
+[Client:extension:1fd6:resolver I] Received event: Subscribed
+[Client:extension:1fd6:resolver I] Client c9bcdca8-32ad-4d7e-b95d-2afcd3afe578 subscribed to event stream
+[Client:extension:1fd6:resolver I] Received event: CreationLogUpdated
+[Client:extension:1fd6:resolver I] Event payload: {"text":"Finding image...","type":"inProgress","isStreamingLogs":false}
+[Client:extension:1fd6:resolver I] Received event: CreationLogUpdated
+[Client:extension:1fd6:resolver I] Event payload: {"text":"Image found.","type":"succeeded","isStreamingLogs":false}
+[Client:extension:1fd6:resolver I] Received event: CreationLogUpdated
+[Client:extension:1fd6:resolver I] Event payload: {"text":"Building container...","type":"inProgress","isStreamingLogs":true}
+[Client:extension:1fd6:resolver I] Received event: CreationLogUpdated
+[Client:extension:1fd6:resolver I] Event payload: {"text":"Container built.","type":"succeeded","isStreamingLogs":false}
+[Client:extension:1fd6:resolver I] Received event: EnvironmentConfigured
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: handleEnvironmentConfiguredEvent()
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:openDefaultFiles I] Skipping openFiles in the web because it is handled by the embedder
+[Performance I] Starting monitor
+[Performance I] Checking if the codespace connection exists
+[Performance I] Running in web, starting monitor without disposable
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace details
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:1fd6:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:1fd6:resolver V] disposing reason: 'vscode disposed the resolver', disposing 1 objects
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr._handleError (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:22201)
+	at Object.readFile (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:19809)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr._handleError (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:22201)
+	at Object.readFile (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:19809)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr._handleError (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:22201)
+	at Object.readFile (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:19809)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr._handleError (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:22201)
+	at Object.readFile (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:19809)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr._handleError (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:22201)
+	at Object.readFile (file:///vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/out/vs/workbench/api/node/extensionHostProcess.js:165:19809)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)

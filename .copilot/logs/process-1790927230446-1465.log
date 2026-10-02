@@ -1,0 +1,3 @@
+2026-10-02T07:47:18.504Z [INFO] Successfully downloaded package, restart to update to version 1.0.91
+2026-10-02T07:47:18.505Z [INFO] Downloading updated linux-x64 binary...
+2026-10-02T07:47:22.063Z [WARNING] Failed to update binary: Error: EACCES: permission denied, mkdir '/usr/local/bin/.copilot-update-1790927242002'

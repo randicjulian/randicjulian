@@ -1,0 +1,55 @@
+2026-10-02 07:47:03.706 [info] Agent Host process started successfully
+2026-10-02 07:47:03.848 [info] AgentService initialized
+2026-10-02 07:47:03.872 [info] Registering agent provider: copilotcli
+2026-10-02 07:47:03.878 [info] Registering agent provider: claude
+2026-10-02 07:47:03.992 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-10d6af1c-07cf-4e3e-9ef9-e0be8d9cefab.sock
+2026-10-02 07:47:03.992 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-10d6af1c-07cf-4e3e-9ef9-e0be8d9cefab.sock
+2026-10-02 07:47:04.028 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-02 07:47:04.105 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-02 07:47:04.908 [info] [Copilot] Listing chats to migrate...
+2026-10-02 07:47:04.923 [info] [Copilot] Starting CopilotClient...
+2026-10-02 07:47:04.929 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-02 07:47:04.972 [info] [Copilot] Using bundled runtime path: /vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-02 07:47:05.053 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 07:47:05.458 [info] [Copilot] CopilotClient started successfully
+2026-10-02 07:47:05.470 [info] [Copilot] Listed 0 SDK session(s) for chats to migrate
+2026-10-02 07:47:05.471 [info] [Copilot] Found 0 legacy sessions
+2026-10-02 07:47:05.705 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 1830ms (0 db opens, 0 db stats)
+2026-10-02 07:47:05.710 [info] [Copilot] Listing discoverable chats...
+2026-10-02 07:47:05.719 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-02 07:47:05.725 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-10-02 07:47:09.199 [info] [ProtocolServer] Initialize: clientId=adbdc3bc-dfcb-4180-8099-04a31dd1cf9b, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-02 07:47:09.411 [info] [AgentService] showExternalSessions changed 'none' -> 'recent'; queueing session list reconciliation
+2026-10-02 07:47:09.564 [info] [Copilot] Startup config changed (hydraFusion=true), restarting CopilotClient
+2026-10-02 07:47:09.565 [info] [Copilot] Restarting CopilotClient (startup config changed: hydraFusion=true)
+2026-10-02 07:47:09.729 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-02 07:47:09.752 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-10-02 07:47:09.755 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 07:47:09.910 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 07:47:09.920 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 07:47:30.750 [info] [Copilot] Auth token updated
+2026-10-02 07:47:30.757 [info] [ClaudeProxyService] listening on http://127.0.0.1:39289
+2026-10-02 07:47:30.758 [info] [Claude] Auth token updated
+2026-10-02 07:47:31.411 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-10-02 07:47:31.452 [info] [Copilot] Listing models...
+2026-10-02 07:47:31.452 [info] [Copilot] Starting CopilotClient...
+2026-10-02 07:47:31.452 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-02 07:47:31.471 [info] [Copilot] Using bundled runtime path: /vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-02 07:47:31.561 [info] [Copilot] CopilotClient started successfully
+2026-10-02 07:47:32.632 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-02 07:47:32.834 [info] [Copilot] Found 0 models: 
+2026-10-02 07:47:39.853 [info] [Copilot] Startup config changed (hydraFusion=false), restarting CopilotClient
+2026-10-02 07:47:39.853 [info] [Copilot] Restarting CopilotClient (startup config changed: hydraFusion=false)
+2026-10-02 07:47:40.139 [info] [Copilot] Listing models...
+2026-10-02 07:47:40.139 [info] [Copilot] Starting CopilotClient...
+2026-10-02 07:47:40.140 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-02 07:47:40.147 [info] [Copilot] Using bundled runtime path: /vscode/bin/linux-x64/07f806f999227108933c2e30515b26eecc1fda74/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-02 07:47:40.262 [info] [Copilot] CopilotClient started successfully
+2026-10-02 07:47:41.521 [info] [Copilot] Found 0 models: 
+2026-10-02 08:02:21.738 [info] [ProtocolServer] Initialize: clientId=bbc97839-cd05-4f31-8a6b-e10e02750248, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-02 08:02:24.948 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 08:02:24.952 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 08:02:26.232 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 08:02:26.244 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-02 08:02:28.195 [info] [Claude] Auth token unchanged
+2026-10-02 08:15:53.457 [info] [ProtocolServer] Client disconnected: adbdc3bc-dfcb-4180-8099-04a31dd1cf9b, subscriptions=1

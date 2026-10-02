@@ -1,0 +1,91 @@
+0 verbose cli /usr/local/share/nvm/versions/node/v24.21.0/bin/node /usr/local/share/nvm/versions/node/v24.21.0/bin/npm
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:/usr/local/share/nvm/versions/node/v24.21.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/codespace/.npmrc
+5 silly config load:file:/usr/local/share/nvm/versions/node/v24.21.0/etc/npmrc
+6 verbose title npm install pnpm@latest
+7 verbose argv "install" "--global" "pnpm@latest" "--force"
+8 verbose logfile logs-max:10 dir:/home/codespace/.npm/_logs/2026-09-10T12_20_08_351Z-
+9 verbose logfile /home/codespace/.npm/_logs/2026-09-10T12_20_08_351Z-debug-0.log
+10 warn using --force Recommended protections disabled.
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 silly logfile done cleaning log files
+13 silly packumentCache corgi:https://registry.npmjs.org/pnpm cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/npm 94ms
+15 http fetch GET 200 https://registry.npmjs.org/pnpm 107ms (cache miss)
+16 silly packumentCache corgi:https://registry.npmjs.org/pnpm set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest pnpm@12.3.4
+19 silly packumentCache full:https://registry.npmjs.org/pnpm cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/pnpm 122ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/pnpm set size:undefined disposed:false
+22 silly placeDep ROOT pnpm@12.3.4 OK for:  want: 12.3.4
+23 silly fetch manifest @pnpm/exe.linux-x64@12.3.4
+24 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-x64 cache-miss
+25 silly fetch manifest @pnpm/exe.win32-x64@12.3.4
+26 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.win32-x64 cache-miss
+27 silly fetch manifest @pnpm/exe.darwin-x64@12.3.4
+28 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.darwin-x64 cache-miss
+29 silly fetch manifest @pnpm/exe.linux-arm64@12.3.4
+30 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-arm64 cache-miss
+31 silly fetch manifest @pnpm/exe.win32-arm64@12.3.4
+32 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.win32-arm64 cache-miss
+33 silly fetch manifest @pnpm/exe.darwin-arm64@12.3.4
+34 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.darwin-arm64 cache-miss
+35 silly fetch manifest @pnpm/exe.linux-x64-musl@12.3.4
+36 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-x64-musl cache-miss
+37 silly fetch manifest @pnpm/exe.linux-arm64-musl@12.3.4
+38 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-arm64-musl cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.win32-x64 31ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.win32-x64 set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.linux-x64 41ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-x64 set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.linux-arm64-musl 56ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-arm64-musl set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.linux-x64-musl 57ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-x64-musl set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.darwin-arm64 62ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.darwin-arm64 set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.darwin-x64 64ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.darwin-x64 set size:undefined disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.win32-arm64 79ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.win32-arm64 set size:undefined disposed:false
+53 http fetch GET 200 https://registry.npmjs.org/@pnpm%2fexe.linux-arm64 165ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/@pnpm%2fexe.linux-arm64 set size:undefined disposed:false
+55 silly placeDep node_modules/pnpm @pnpm/exe.darwin-arm64@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+56 silly placeDep node_modules/pnpm @pnpm/exe.darwin-x64@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+57 silly placeDep node_modules/pnpm @pnpm/exe.linux-arm64@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+58 silly placeDep node_modules/pnpm @pnpm/exe.linux-arm64-musl@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+59 silly placeDep node_modules/pnpm @pnpm/exe.linux-x64@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+60 silly placeDep node_modules/pnpm @pnpm/exe.linux-x64-musl@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+61 silly placeDep node_modules/pnpm @pnpm/exe.win32-arm64@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+62 silly placeDep node_modules/pnpm @pnpm/exe.win32-x64@12.3.4 OK for: pnpm@12.3.4 want: 12.3.4
+63 silly reify moves {}
+64 http cache pnpm@https://registry.npmjs.org/pnpm/-/pnpm-12.3.4.tgz 0ms (cache hit)
+65 http cache @pnpm/exe.linux-x64@https://registry.npmjs.org/@pnpm/exe.linux-x64/-/exe.linux-x64-12.3.4.tgz 0ms (cache hit)
+66 silly tarball no local data for pnpm@https://registry.npmjs.org/pnpm/-/pnpm-12.3.4.tgz. Extracting by manifest.
+67 silly tarball no local data for @pnpm/exe.linux-x64@https://registry.npmjs.org/@pnpm/exe.linux-x64/-/exe.linux-x64-12.3.4.tgz. Extracting by manifest.
+68 http fetch GET 200 https://registry.npmjs.org/@pnpm/exe.linux-x64/-/exe.linux-x64-12.3.4.tgz 380ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/pnpm/-/pnpm-12.3.4.tgz 433ms (cache miss)
+70 info run pnpm@12.3.4 preinstall node_modules/pnpm node install.js
+71 info run pnpm@12.3.4 preinstall { code: 0, signal: null }
+72 info run pnpm@12.3.4 postinstall node_modules/pnpm node install.js
+73 info run pnpm@12.3.4 postinstall { code: 0, signal: null }
+74 silly ADD node_modules/pnpm
+75 silly ADD node_modules/pnpm/node_modules/@pnpm/exe.linux-x64
+76 warn install-scripts 1 package has install scripts not yet covered by allowScripts:
+76 warn install-scripts   pnpm@12.3.4 (preinstall: node install.js; postinstall: node install.js)
+76 warn install-scripts
+76 warn install-scripts Run `npm install -g --allow-scripts=pnpm` to allow these scripts once, or `npm config set allow-scripts=pnpm --location=user` to allow them for all global installs.
+77 verbose cwd /tmp/dev-container-features/node_4
+78 verbose os Linux 6.17.0-1022-azure
+79 verbose node v24.21.0
+80 verbose npm  v11.19.0
+81 notice
+81 notice New major version of npm available! 11.19.0 -> 12.0.2
+81 notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+81 notice To update run: npm install -g npm@12.0.2
+81 notice  { force: true, Symbol(proc-log.meta): true }
+82 verbose exit 0
+83 info ok

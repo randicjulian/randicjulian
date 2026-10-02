@@ -1,0 +1,123 @@
+2026-10-02 08:02:31.459 [warning] /home/codespace/.ssh/config: ENOENT: no such file or directory, open '/home/codespace/.ssh/config'
+2026-10-02 08:02:31.459 [info] [Activation] Extension version: 0.166.1
+2026-10-02 08:02:32.224 [info] [Authentication] Creating hub for .com
+2026-10-02 08:02:32.730 [info] [Activation] Registering built in git provider.
+2026-10-02 08:02:32.730 [info] [Activation] Looking for git repository
+2026-10-02 08:02:32.730 [info] [Activation] Found 0 repositories during activation
+2026-10-02 08:02:32.730 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-10-02 08:02:32.748 [info] [GitAPI] Registering git provider
+2026-10-02 08:02:32.748 [info] [Review+0] Validate state in progress
+2026-10-02 08:02:32.748 [info] [Review+0] Validating state...
+2026-10-02 08:02:32.890 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/randic
+2026-10-02 08:02:33.006 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-10-02 08:02:33.006 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2026-10-02 08:02:33.006 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 08:02:33.006 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 08:02:33.006 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 08:02:33.006 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 08:02:33.609 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-10-02 08:02:33.927 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 08:02:33.927 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 08:02:33.927 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 08:02:33.927 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 08:02:34.393 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-10-02 08:03:45.038 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:03:45.048 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:03:45.050 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:03:45.709 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:03:45.710 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:03:45.710 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:03:46.359 [warning] [GitHubRepository+0.2] Repository randicjulian/.github from remote .github in workspace folder /workspaces/randic returned HTTP 404 and will be skipped for this session.
+2026-10-02 08:03:46.360 [info] [FolderRepositoryManager+0] Repository randicjulian/.github is not accessible: HttpError: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository
+2026-10-02 08:03:46.360 [info] [FolderRepositoryManager+0] Repository randicjulian/.github is not accessible.
+2026-10-02 08:03:46.377 [warning] [GitHubRepository+0.1] Repository randicjulian/.github from remote .github in workspace folder /workspaces/randic returned HTTP 404 and will be skipped for this session.
+2026-10-02 08:03:46.378 [info] [FolderRepositoryManager+0] Repository randicjulian/.github is not accessible: HttpError: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository
+2026-10-02 08:03:46.378 [info] [FolderRepositoryManager+0] Repository randicjulian/.github is not accessible.
+2026-10-02 08:03:46.384 [info] [CreatePullRequestViewProvider] Initializing "create" view: {"canModifyBranches":true,"defaultBaseRemote":{"owner":"randicjulian","repositoryName":"randic"},"defaultBaseBranch":"main","defaultCompareRemote":{"owner":"randicjulian","repositoryName":"randic"},"defaultCompareBranch":"main","defaultTitle":"Main","defaultDescription":"","defaultMergeMethod":"merge","baseHasMergeQueue":false,"remoteCount":1,"allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":false,"creating":false,"initializeWithGeneratedTitleAndDescription":false,"preReviewState":0,"reviewing":false,"usingTemplate":true}
+2026-10-02 08:04:08.102 [info] [Activation] Repo state for file:///workspaces/randic changed.
+2026-10-02 08:04:08.102 [info] [Activation] Repo file:///workspaces/randic has already been setup.
+2026-10-02 08:04:08.104 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:04:08.125 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:04:08.916 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:04:08.916 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:04:37.561 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:04:38.078 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:04:45.051 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-10-02 08:07:32.749 [info] [Review+0] Skipping poll: window is not focused
+2026-10-02 08:08:08.271 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:08.286 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:08.926 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:08.926 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:13.347 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:13.377 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:14.484 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:14.484 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:18.409 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:18.428 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:19.025 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:19.025 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:23.503 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:23.586 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:24.062 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:24.062 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:28.592 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:28.613 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:29.182 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:29.182 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:33.745 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:33.780 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:34.342 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:34.342 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:38.796 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:38.814 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:39.224 [info] [Review+0] Polling for state change...
+2026-10-02 08:08:39.224 [info] [Review+0] Validate state in progress
+2026-10-02 08:08:39.224 [info] [Review+0] Validating state...
+2026-10-02 08:08:39.422 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:39.422 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:39.487 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/randic
+2026-10-02 08:08:39.488 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-10-02 08:08:39.502 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-10-02 08:08:40.482 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-10-02 08:08:40.620 [info] [Review+0] Polling found no change. Backing off to 600s.
+2026-10-02 08:08:43.859 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:43.877 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:44.440 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:44.440 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:48.946 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:48.965 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:49.555 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:49.555 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:54.030 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:54.049 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:54.777 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:54.777 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:59.089 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:59.108 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:08:59.849 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:08:59.850 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:04.179 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:04.196 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:04.792 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:04.792 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:09.269 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:09.290 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:09.819 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:09.819 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:15.492 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:15.501 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:15.987 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:15.987 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:20.536 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:20.553 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-10-02 08:09:21.313 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:09:21.313 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-10-02 08:18:40.620 [info] [Review+0] Skipping poll: window is not focused
+2026-10-02 08:20:06.863 [info] [Review+0] Polling for state change...
+2026-10-02 08:20:06.863 [info] [Review+0] Validate state in progress
+2026-10-02 08:20:06.863 [info] [Review+0] Validating state...
+2026-10-02 08:20:06.904 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/randic
+2026-10-02 08:20:06.905 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-10-02 08:20:06.912 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-10-02 08:20:07.898 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-10-02 08:20:08.052 [info] [Review+0] Polling found no change. Backing off to 1200s.

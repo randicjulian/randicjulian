@@ -1,0 +1,188 @@
+2026-10-02 07:47:32.480 [info] [main] Log level: Info
+2026-10-02 07:47:32.480 [info] [main] Validating found git in: "git"
+2026-10-02 07:47:32.480 [info] [main] Using git "2.55.0" from "git"
+2026-10-02 07:47:32.480 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-02 07:47:32.480 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-02 07:47:32.480 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-10-02 07:47:32.480 [info] [Model][openRepository] Opened repository (path): /workspaces/randic
+2026-10-02 07:47:32.480 [info] [Model][openRepository] Opened repository (real path): /workspaces/randic
+2026-10-02 07:47:32.480 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-02 07:47:32.480 [info] > git config --get commit.template [13ms]
+2026-10-02 07:47:32.480 [info] > git config --get --local core.virtualfilesystem [22ms]
+2026-10-02 07:47:32.480 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-02 07:47:32.480 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-02 07:47:32.480 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-02 07:47:32.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-10-02 07:47:32.497 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:32.498 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-10-02 07:47:32.517 [info] > git status -z -uall [11ms]
+2026-10-02 07:47:32.522 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-10-02 07:47:32.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-10-02 07:47:32.606 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2026-10-02 07:47:32.606 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-02 07:47:32.611 [info] > git config --get commit.template [16ms]
+2026-10-02 07:47:32.618 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2026-10-02 07:47:32.638 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [13ms]
+2026-10-02 07:47:32.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2026-10-02 07:47:32.648 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:32.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2026-10-02 07:47:32.657 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2026-10-02 07:47:32.674 [info] > git status -z -uall [9ms]
+2026-10-02 07:47:32.674 [info] > git config --add --local branch.main.vscode-merge-base origin/main [17ms]
+2026-10-02 07:47:32.676 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms] (cancelled)
+2026-10-02 07:47:32.696 [info] > git config --get commit.template [10ms]
+2026-10-02 07:47:32.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-10-02 07:47:32.705 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:32.707 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-10-02 07:47:32.722 [info] > git status -z -uall [8ms]
+2026-10-02 07:47:32.727 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-10-02 07:47:32.756 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2026-10-02 07:47:32.763 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2026-10-02 07:47:32.774 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 5633ff8490b43488ed856058e9dd6e827f0a7174...refs/remotes/origin/main -- [4ms]
+2026-10-02 07:47:32.776 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 5633ff8490b43488ed856058e9dd6e827f0a7174...refs/remotes/origin/main -- [14ms]
+2026-10-02 07:47:33.275 [info] > git check-ignore -v -z --stdin [8ms]
+2026-10-02 07:47:34.183 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 07:47:35.357 [info] > git config --get commit.template [8ms]
+2026-10-02 07:47:35.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-10-02 07:47:35.402 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:35.407 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2026-10-02 07:47:35.435 [info] > git status -z -uall [18ms]
+2026-10-02 07:47:35.461 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2026-10-02 07:47:36.012 [info] > git config --local -l [7ms]
+2026-10-02 07:47:36.162 [info] > git config --local -l [18ms]
+2026-10-02 07:47:36.163 [info] > git config --local -l [26ms]
+2026-10-02 07:47:36.163 [info] > git config --local -l [32ms]
+2026-10-02 07:47:36.164 [info] > git config --local -l [39ms]
+2026-10-02 07:47:36.843 [info] > git config --local -l [12ms]
+2026-10-02 07:47:36.853 [info] > git for-each-ref --count=10 --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads/ [51ms]
+2026-10-02 07:47:36.859 [info] > git config --local -l [64ms]
+2026-10-02 07:47:36.860 [info] > git config --local -l [74ms]
+2026-10-02 07:47:36.860 [info] > git config --local -l [82ms]
+2026-10-02 07:47:36.860 [info] > git config --local -l [92ms]
+2026-10-02 07:47:36.861 [info] > git config --local -l [101ms]
+2026-10-02 07:47:36.877 [info] > git config --local -l [18ms]
+2026-10-02 07:47:36.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-10-02 07:47:41.005 [info] > git config --get commit.template [22ms]
+2026-10-02 07:47:41.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-10-02 07:47:41.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:41.020 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-10-02 07:47:41.130 [info] > git status -z -uall [94ms]
+2026-10-02 07:47:41.132 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [81ms]
+2026-10-02 07:47:46.151 [info] > git config --get commit.template [8ms]
+2026-10-02 07:47:46.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-10-02 07:47:46.156 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:46.158 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-10-02 07:47:46.168 [info] > git status -z -uall [6ms]
+2026-10-02 07:47:46.171 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-10-02 07:47:47.968 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 07:47:48.928 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 07:47:50.004 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 07:47:51.182 [info] > git config --get commit.template [2ms]
+2026-10-02 07:47:51.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-10-02 07:47:51.195 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:47:51.196 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-10-02 07:47:51.208 [info] > git status -z -uall [8ms]
+2026-10-02 07:47:51.208 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-02 07:48:22.424 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 07:48:23.504 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 07:48:30.091 [info] > git -c i18n.logOutputEncoding=UTF-8 log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2026-10-02 07:48:31.573 [info] > git merge-base main origin/main [2ms]
+2026-10-02 07:48:35.226 [info] > git hash-object -t tree /dev/null [3ms]
+2026-10-02 07:48:35.238 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 5633ff8490b43488ed856058e9dd6e827f0a7174 -- [3ms]
+2026-10-02 07:48:35.815 [info] > git check-ignore -v -z --stdin [5ms]
+2026-10-02 07:48:40.785 [info] > git add -A -- . [16ms]
+2026-10-02 07:48:41.679 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 07:48:44.208 [info] > git -c user.useConfigOnly=true commit --quiet [3418ms]
+2026-10-02 07:48:44.208 [info] Aborting commit due to empty commit message.
+2026-10-02 07:48:44.220 [info] > git config --get commit.template [6ms]
+2026-10-02 07:48:44.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-10-02 07:48:44.225 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:48:44.227 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-10-02 07:48:44.238 [info] > git status -z -uall [7ms]
+2026-10-02 07:48:44.239 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-02 07:48:44.626 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 07:48:44.735 [info] > git show --textconv :regalos-warkop/src/data/initialMenu.ts [19ms]
+2026-10-02 07:48:44.735 [info] > git show --textconv HEAD:regalos-warkop/src/data/initialMenu.ts [11ms]
+2026-10-02 07:48:44.735 [info] > git ls-files --stage -- regalos-warkop/src/data/initialMenu.ts [7ms]
+2026-10-02 07:48:44.743 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspaces/randic/regalos-warkop/src/data/initialMenu.ts.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Fdata%2FinitialMenu.ts%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 07:48:44.744 [info] > git ls-tree -l HEAD -- regalos-warkop/src/data/initialMenu.ts [10ms]
+2026-10-02 07:48:44.746 [warning] [GitFileSystemProvider][stat] File not found - git:/workspaces/randic/regalos-warkop/src/data/initialMenu.ts.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Fdata%2FinitialMenu.ts%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 07:48:44.746 [info] > git cat-file -s 39e4474f95404295b214e11f7ddcff49ee8363b3 [3ms]
+2026-10-02 07:48:45.273 [info] > git check-ignore -v -z --stdin [4ms]
+2026-10-02 07:50:07.734 [info] > git check-ignore -v -z --stdin [1ms]
+2026-10-02 07:50:08.081 [info] > git show --textconv :regalos-warkop/src/components/CartDrawer.tsx [27ms]
+2026-10-02 07:50:08.082 [info] > git show --textconv HEAD:regalos-warkop/src/components/CartDrawer.tsx [21ms]
+2026-10-02 07:50:08.082 [info] > git ls-tree -l HEAD -- regalos-warkop/src/components/CartDrawer.tsx [4ms]
+2026-10-02 07:50:08.083 [warning] [GitFileSystemProvider][stat] File not found - git:/workspaces/randic/regalos-warkop/src/components/CartDrawer.tsx.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Fcomponents%2FCartDrawer.tsx%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 07:50:08.083 [info] > git ls-files --stage -- regalos-warkop/src/components/CartDrawer.tsx [12ms]
+2026-10-02 07:50:08.092 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspaces/randic/regalos-warkop/src/components/CartDrawer.tsx.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Fcomponents%2FCartDrawer.tsx%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 07:50:08.097 [info] > git cat-file -s 3c8eb8cd743988707cef36e17e54c7b3ab11a666 [7ms]
+2026-10-02 07:58:32.674 [info] > git config --local -l [2ms]
+2026-10-02 07:58:32.729 [info] > git config --local -l [5ms]
+2026-10-02 07:58:57.750 [info] > git check-ignore -v -z --stdin [45ms]
+2026-10-02 07:59:10.202 [info] > git config --get commit.template [2ms]
+2026-10-02 07:59:10.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-10-02 07:59:10.213 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:59:10.215 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-10-02 07:59:10.225 [info] > git status -z -uall [6ms]
+2026-10-02 07:59:10.227 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-02 07:59:10.645 [info] > git check-ignore -v -z --stdin [1ms]
+2026-10-02 07:59:45.116 [info] > git config --get commit.template [1ms]
+2026-10-02 07:59:45.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-10-02 07:59:45.128 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 07:59:45.130 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-10-02 07:59:45.142 [info] > git status -z -uall [8ms]
+2026-10-02 07:59:45.142 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-02 07:59:45.569 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 08:00:25.800 [info] > git config --get commit.template [2ms]
+2026-10-02 08:00:25.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-10-02 08:00:25.811 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 08:00:25.812 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-10-02 08:00:25.825 [info] > git status -z -uall [8ms]
+2026-10-02 08:00:25.825 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-02 08:00:26.313 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 08:01:04.361 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 08:01:04.421 [info] > git show --textconv :regalos-warkop/src/components/CartDrawer.tsx [18ms]
+2026-10-02 08:01:04.421 [info] > git show --textconv HEAD:regalos-warkop/src/components/CartDrawer.tsx [10ms]
+2026-10-02 08:01:04.422 [info] > git ls-files --stage -- regalos-warkop/src/components/CartDrawer.tsx [6ms]
+2026-10-02 08:01:04.430 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspaces/randic/regalos-warkop/src/components/CartDrawer.tsx.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Fcomponents%2FCartDrawer.tsx%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:04.430 [info] > git ls-tree -l HEAD -- regalos-warkop/src/components/CartDrawer.tsx [9ms]
+2026-10-02 08:01:04.431 [warning] [GitFileSystemProvider][stat] File not found - git:/workspaces/randic/regalos-warkop/src/components/CartDrawer.tsx.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Fcomponents%2FCartDrawer.tsx%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:04.431 [info] > git cat-file -s 3c8eb8cd743988707cef36e17e54c7b3ab11a666 [2ms]
+2026-10-02 08:01:07.415 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 08:01:08.268 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 08:01:13.417 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 08:01:14.181 [info] > git check-ignore -v -z --stdin [3ms]
+2026-10-02 08:01:14.863 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 08:01:14.931 [info] > git show --textconv :regalos-warkop/src/index.css [18ms]
+2026-10-02 08:01:14.931 [info] > git show --textconv HEAD:regalos-warkop/src/index.css [13ms]
+2026-10-02 08:01:14.931 [info] > git ls-files --stage -- regalos-warkop/src/index.css [6ms]
+2026-10-02 08:01:14.937 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspaces/randic/regalos-warkop/src/index.css.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Findex.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:14.938 [info] > git ls-tree -l HEAD -- regalos-warkop/src/index.css [9ms]
+2026-10-02 08:01:14.938 [warning] [GitFileSystemProvider][stat] File not found - git:/workspaces/randic/regalos-warkop/src/index.css.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Findex.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:14.940 [info] > git cat-file -s f1d8c73cdcf9eaacb01fec99963ad78d591305ae [3ms]
+2026-10-02 08:01:15.944 [info] > git check-ignore -v -z --stdin [5ms]
+2026-10-02 08:01:16.145 [info] > git show --textconv :regalos-warkop/src/App.tsx [66ms]
+2026-10-02 08:01:16.145 [info] > git show --textconv HEAD:regalos-warkop/src/App.tsx [56ms]
+2026-10-02 08:01:16.145 [info] > git ls-tree -l HEAD -- regalos-warkop/src/App.tsx [3ms]
+2026-10-02 08:01:16.146 [warning] [GitFileSystemProvider][stat] File not found - git:/workspaces/randic/regalos-warkop/src/App.tsx.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2FApp.tsx%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:16.146 [info] > git ls-files --stage -- regalos-warkop/src/App.tsx [26ms]
+2026-10-02 08:01:16.157 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspaces/randic/regalos-warkop/src/App.tsx.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2FApp.tsx%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:16.161 [info] > git cat-file -s 0469e366a848da0cecc714893033ccc244a4aa98 [6ms]
+2026-10-02 08:01:17.003 [info] > git check-ignore -v -z --stdin [5ms]
+2026-10-02 08:01:17.139 [info] > git show --textconv :regalos-warkop/src/utils/formatters.ts [39ms]
+2026-10-02 08:01:17.139 [info] > git show --textconv HEAD:regalos-warkop/src/utils/formatters.ts [24ms]
+2026-10-02 08:01:17.139 [info] > git ls-files --stage -- regalos-warkop/src/utils/formatters.ts [14ms]
+2026-10-02 08:01:17.153 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspaces/randic/regalos-warkop/src/utils/formatters.ts.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Futils%2Fformatters.ts%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:17.154 [info] > git ls-tree -l HEAD -- regalos-warkop/src/utils/formatters.ts [18ms]
+2026-10-02 08:01:17.154 [warning] [GitFileSystemProvider][stat] File not found - git:/workspaces/randic/regalos-warkop/src/utils/formatters.ts.git?%7B%22path%22%3A%22%2Fworkspaces%2Frandic%2Fregalos-warkop%2Fsrc%2Futils%2Fformatters.ts%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-10-02 08:01:17.157 [info] > git cat-file -s 00f21db096720744c5e957a94d3b5b5be249b256 [4ms]
+2026-10-02 08:01:51.913 [info] > git config --get commit.template [7ms]
+2026-10-02 08:01:51.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-10-02 08:01:51.919 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/randic/.git/refs/remotes/origin/main'
+2026-10-02 08:01:51.920 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-10-02 08:01:51.932 [info] > git status -z -uall [7ms]
+2026-10-02 08:01:51.934 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-02 08:01:52.430 [info] > git check-ignore -v -z --stdin [2ms]
+2026-10-02 08:01:57.504 [info] > git -c i18n.logOutputEncoding=UTF-8 log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2026-10-02 08:01:57.631 [info] > git merge-base main origin/main [2ms]

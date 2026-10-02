@@ -1,0 +1,46 @@
+2026-10-02 07:47:34.155 [warning] /home/codespace/.ssh/config: ENOENT: no such file or directory, open '/home/codespace/.ssh/config'
+2026-10-02 07:47:34.155 [info] [Activation] Extension version: 0.166.1
+2026-10-02 07:47:35.090 [info] [Authentication] Creating hub for .com
+2026-10-02 07:47:35.991 [info] [Activation] Registering built in git provider.
+2026-10-02 07:47:35.991 [info] [Activation] Looking for git repository
+2026-10-02 07:47:35.991 [info] [Activation] Found 0 repositories during activation
+2026-10-02 07:47:35.991 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-10-02 07:47:36.005 [info] [GitAPI] Registering git provider
+2026-10-02 07:47:36.005 [info] [Review+0] Validate state in progress
+2026-10-02 07:47:36.005 [info] [Review+0] Validating state...
+2026-10-02 07:47:36.149 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/randic
+2026-10-02 07:47:36.381 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-10-02 07:47:36.381 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2026-10-02 07:47:36.381 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:47:36.381 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:47:36.381 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:47:36.381 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:47:36.819 [info] [FolderRepositoryManager+0] First activation: associating local branches with PRs
+2026-10-02 07:47:36.843 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-10-02 07:47:37.914 [info] [FolderRepositoryManager+0] Branch association complete: 0 branches associated with PRs
+2026-10-02 07:47:37.917 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-10-02 07:47:41.135 [info] [Activation] Repo state for file:///workspaces/randic changed.
+2026-10-02 07:47:41.135 [info] [Activation] Repo file:///workspaces/randic has already been setup.
+2026-10-02 07:48:40.769 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:48:40.769 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:48:40.769 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:48:40.769 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:48:40.848 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:48:40.848 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:48:40.848 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:48:40.848 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:48:44.244 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:48:44.244 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:48:44.244 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-10-02 07:48:44.244 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-10-02 07:52:36.006 [info] [Review+0] Skipping poll: window is not focused
+2026-10-02 07:54:28.504 [info] [Review+0] Skipping poll: window is not focused
+2026-10-02 07:57:44.624 [info] [Review+0] Skipping poll: window is not focused
+2026-10-02 07:58:32.664 [info] [Review+0] Polling for state change...
+2026-10-02 07:58:32.664 [info] [Review+0] Validate state in progress
+2026-10-02 07:58:32.664 [info] [Review+0] Validating state...
+2026-10-02 07:58:32.715 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/randic
+2026-10-02 07:58:32.716 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-10-02 07:58:32.730 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-10-02 07:58:33.862 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-10-02 07:58:34.020 [info] [Review+0] Polling found no change. Backing off to 600s.

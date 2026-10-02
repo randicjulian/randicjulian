@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 16142,
+  "port": 8888,
+  "root_dir": "/workspaces/randic",
+  "secure": false,
+  "sock": "",
+  "token": "09c9d7aa61c57af7f47df7a56bf9d5f435d3bd8453e9cba5",
+  "url": "http://localhost:8888/",
+  "version": "2.21.0"
+}
